@@ -229,7 +229,7 @@ a {
     background: var(--accent-text-color)
 }
 
-/*Footer logo*/
+/*Footer logo */
 
 .footer-web {
     font-family: 'Raleway';
@@ -260,4 +260,114 @@ a {
     font-size: 16px;
     line-height: 24px;
     color: var(--color-of-paragraphs-two);
+}
+
+/* Portfolio Page 2 */
+
+/* Buttons */
+
+.buttons {
+    color: var(--accent-color-three);
+    transition-duration: 0.4s;
+}
+
+.buttons-all {
+    color: var(--accent-text-color-two);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+.buttons-all:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.buttons-website {
+    color: var(--accent-text-color-two);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.buttons-website:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.buttons-app {
+    color: var(--accent-text-color-two);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.buttons-app:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.buttons-design {
+    color: var(--accent-text-color-two);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.buttons-design:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.buttons-marketing {
+    color: var(--accent-text-color-two);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.buttons-marketing:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+/* Section 2*/
+
+.portfolio-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--accent-text-color);
+}
+
+.portfolio-list {
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+.portfolio-type {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: var(--color-of-paragraphs);
+}
+
+.portfolio-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--accent-text-color);
 }
