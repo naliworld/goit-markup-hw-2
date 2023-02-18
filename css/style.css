@@ -1,0 +1,263 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4FD;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* Website colors */
+:root {
+    --accent-text-color: #2e2f42;
+    --accent-text-color-two: #4D5ae5;
+    --color-of-paragraphs: #434455;
+    --accent-color-three: #F4F4FD;
+    --color-of-paragraphs-two: #E7E9FC;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+
+/* Header Logo */
+
+.header-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--accent-text-color-two);
+    text-transform: uppercase;
+}
+
+.header-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--accent-text-color);
+    text-transform: uppercase;
+}
+
+/* Header List */
+
+.header-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--accent-text-color);
+    list-style: none;
+}
+
+.stu {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.portfolio {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contacts {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* Header address */
+
+.header-adress-c {
+    margin-top: 24px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    list-style: none;
+    letter-spacing: 0.02cm;
+
+}
+
+.header-adress-mail {
+    color: var(--color-of-paragraphs);
+}
+
+.header-adress-tel {
+    color: var(--color-of-paragraphs);
+}
+
+/*Section 1*/
+.hero {
+    background: var(--accent-text-color);
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: var(--accent-text-color-two);
+    transition-duration: 0.4s;
+}
+
+.hero-button:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+/* Section 2 */
+
+.section-advantages {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.section-list {
+    list-style: none;
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0;
+}
+
+.section-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--color-of-paragraphs);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 0;
+}
+
+/*Section 3*/
+
+.info-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--accent-text-color);
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+/*Section 4*/
+
+.team {
+    background: #F4F4FD;
+}
+
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--accent-text-color);
+}
+
+.team-members {
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+.team-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--accent-text-color);
+    background: #FFFFFF;
+}
+
+.team-position {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-of-paragraphs);
+}
+
+/*Footer*/
+
+.footer {
+    background: var(--accent-text-color)
+}
+
+/*Footer logo*/
+
+.footer-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--accent-text-color-two);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--accent-color-three);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-of-paragraphs-two);
+}
