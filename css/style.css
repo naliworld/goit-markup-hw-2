@@ -186,7 +186,7 @@ a {
 /*Section 4*/
 
 .team {
-    background: #F4F4FD;
+    background: var(--accent-color-three);
 }
 
 .team-title {
@@ -337,7 +337,7 @@ a {
     cursor: pointer;
 }
 
-/* Section 2*/
+/* Portfolio Section 2*/
 
 .portfolio-title {
     font-family: 'Roboto';
