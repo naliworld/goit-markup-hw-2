@@ -274,7 +274,8 @@ a {
 
 /* Buttons */
 
-.buttons-list{
+
+.buttons-items{
     background-color: var(--accent-color-three);
     list-style: none;
 }
