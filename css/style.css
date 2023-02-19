@@ -251,7 +251,7 @@ a {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    color: var(--accent-text-color);
+    color: var(--color-of-paragraphs-two);
     text-transform: uppercase;
 }
 
