@@ -270,13 +270,13 @@ a {
     color: var(--accent-color-three);
     transition-duration: 0.4s;
     list-style: none;
+    cursor: pointer;
 }
 
 
 .buttons-list.buttons-items:hover,
 .buttons-list.buttons-items:focus{
     background-color: var(--color-of-paragraphs-two);
-    cursor: pointer;
 }
 
 
