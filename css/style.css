@@ -274,26 +274,24 @@ a {
 
 /* Buttons */
 
-.buttons-listing{
-    color: var(--accent-color-three);
-    transition-duration: 0.4s;
-    list-style: none;
-    cursor: pointer;
-}
-
-
-.buttons-listing:hover,
-.buttons-listing:focus{
-    background-color: var(--color-of-paragraphs-two);
-}
-
-
 .buttons-listing {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
+    background-color:var(--accent-color-three);
+    transition-duration: 0.4s;
+    list-style: none;
+}
+
+.buttons-listing:hover,
+.buttons-listing:focus {
+    background-color: var(--color-of-paragraphs-two);
+}
+
+.buttons-listing.cursor{
+    cursor: pointer;
 }
 
 
