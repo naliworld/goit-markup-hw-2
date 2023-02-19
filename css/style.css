@@ -291,7 +291,7 @@ a {
 }
 
 
-.buttons-all {
+.buttons-items-all {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
@@ -301,7 +301,7 @@ a {
 }
 
 
-.buttons-website {
+.buttons-items-website {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
@@ -311,7 +311,7 @@ a {
 
 
 
-.buttons-app {
+.buttons-items-app {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
@@ -320,7 +320,7 @@ a {
 }
 
 
-.buttons-design {
+.buttons-items-design {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
@@ -330,7 +330,7 @@ a {
 
 
 
-.buttons-marketing {
+.buttons-items-marketing {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
