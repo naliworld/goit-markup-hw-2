@@ -274,7 +274,7 @@ a {
 
 /* Buttons */
 
-.buttons-items{
+.buttons-listing{
     color: var(--accent-color-three);
     transition-duration: 0.4s;
     list-style: none;
@@ -282,52 +282,13 @@ a {
 }
 
 
-.buttons-items:hover,
-.buttons-items:focus{
+.buttons-listing:hover,
+.buttons-listing:focus{
     background-color: var(--color-of-paragraphs-two);
 }
 
 
-.buttons-items-all {
-    color: var(--accent-text-color-two);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-
-}
-
-
-.buttons-items-website {
-    color: var(--accent-text-color-two);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-
-
-.buttons-items-app {
-    color: var(--accent-text-color-two);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-
-.buttons-items-design {
-    color: var(--accent-text-color-two);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-
-
-.buttons-items-marketing {
+.buttons-listing {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
