@@ -274,15 +274,18 @@ a {
 
 /* Buttons */
 
+.buttons-list{
+    background-color: var(--accent-color-three);
+    list-style: none;
+}
+
 .buttons-listing {
     color: var(--accent-text-color-two);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
-    background-color:var(--accent-color-three);
     transition-duration: 0.4s;
-    list-style: none;
 }
 
 .buttons-listing:hover,
