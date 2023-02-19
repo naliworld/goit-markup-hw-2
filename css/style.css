@@ -269,13 +269,17 @@ a {
 .buttons-list {
     color: var(--accent-color-three);
     transition-duration: 0.4s;
-    
+    list-style: none;
 }
 
-.buttons-list:hover{
-    background-color: cornflowerblue;
+
+.buttons-list.buttons-items:hover,
+.buttons-list.buttons-items:focus{
+    background-color: var(--color-of-paragraphs-two);
     cursor: pointer;
 }
+
+
 
 .buttons-all {
     color: var(--accent-text-color-two);
