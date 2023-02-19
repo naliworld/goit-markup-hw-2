@@ -266,9 +266,15 @@ a {
 
 /* Buttons */
 
-.buttons {
+.buttons-list {
     color: var(--accent-color-three);
     transition-duration: 0.4s;
+    
+}
+
+.buttons-list:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
 }
 
 .buttons-all {
@@ -280,10 +286,6 @@ a {
 
 }
 
-.buttons-all:hover {
-    background-color: cornflowerblue;
-    cursor: pointer;
-}
 
 .buttons-website {
     color: var(--accent-text-color-two);
@@ -293,10 +295,7 @@ a {
     font-size: 13px;
 }
 
-.buttons-website:hover {
-    background-color: cornflowerblue;
-    cursor: pointer;
-}
+
 
 .buttons-app {
     color: var(--accent-text-color-two);
@@ -306,10 +305,6 @@ a {
     font-size: 13px;
 }
 
-.buttons-app:hover {
-    background-color: cornflowerblue;
-    cursor: pointer;
-}
 
 .buttons-design {
     color: var(--accent-text-color-two);
@@ -319,10 +314,7 @@ a {
     font-size: 13px;
 }
 
-.buttons-design:hover {
-    background-color: cornflowerblue;
-    cursor: pointer;
-}
+
 
 .buttons-marketing {
     color: var(--accent-text-color-two);
@@ -332,10 +324,7 @@ a {
     font-size: 13px;
 }
 
-.buttons-marketing:hover {
-    background-color: cornflowerblue;
-    cursor: pointer;
-}
+
 
 /* Portfolio Section 2*/
 
