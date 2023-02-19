@@ -138,7 +138,7 @@ a {
 
 /* Section 2 */
 
-.section-advantages {
+.section-title {
     font-size: 18px;
     text-decoration: none;
     color: var(--accent-text-color);
@@ -242,6 +242,10 @@ a {
 
 /*Footer logo */
 
+.footer{
+    letter-spacing: 0px;
+}
+
 .footer-web {
     font-family: 'Raleway';
     font-style: normal;
@@ -293,7 +297,7 @@ a {
 
 .buttons-listing:hover,
 .buttons-listing:focus {
-    background-color: var(--color-of-paragraphs-two);
+    background-color: var(--accent-text-color-two);
 }
 
 .buttons-listing.cursor{
