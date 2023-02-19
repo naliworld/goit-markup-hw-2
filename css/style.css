@@ -235,20 +235,18 @@ a {
 /*Footer logo */
 
 
-.footer-studio {
+.footer-web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    color: var(--color-of-paragraphs-two);
+    color: var(--accent-text-color-two);
     text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0px;
 }
 
-.footer-web {
-    color: var(--accent-text-color-two);
+.footer-studio {
+    color: var(--accent-text-color);
 }
 
 .footer-desc {
