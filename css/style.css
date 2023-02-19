@@ -19,6 +19,7 @@ body {
 /* Links */
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -123,12 +124,9 @@ a {
 
 .hero-button:hover,
 .hero.button:focus {
-    background-color: var(--accent-text-color);
+    color: var(--accent-text-color);
 }
 
-.hero-button.cursor{
-    cursor: pointer;
-}
 
 /* Section 2 */
 
@@ -274,14 +272,12 @@ a {
 .buttons-list {
     color: var(--accent-color-three);
     transition-duration: 0.4s;
-    list-style: none;
-    cursor: pointer;
 }
 
 
 .buttons-list.buttons-items:hover,
 .buttons-list.buttons-items:focus{
-    background-color: var(--color-of-paragraphs-two);
+    color: var(--color-of-paragraphs-two);
 }
 
 
