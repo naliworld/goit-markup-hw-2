@@ -274,7 +274,7 @@ a {
 
 /* Buttons */
 
-.buttons-list {
+.buttons-items {
     color: var(--accent-color-three);
     transition-duration: 0.4s;
     list-style: none;
@@ -286,7 +286,7 @@ a {
     background-color: var(--color-of-paragraphs-two);
 }
 
-.buttons-list{
+.buttons-items{
     cursor: pointer;
 }
 
