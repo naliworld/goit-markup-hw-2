@@ -274,19 +274,19 @@ a {
 
 /* Buttons */
 
-.buttons{
+.buttons-items{
     color: var(--accent-color-three);
     transition-duration: 0.4s;
     list-style: none;
 }
 
 
-.buttons:hover,
-.buttons:focus{
+.buttons-items:hover,
+.buttons-items:focus{
     background-color: var(--color-of-paragraphs-two);
 }
 
-.buttons{
+.buttons-items{
     cursor: pointer;
 }
 
