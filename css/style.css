@@ -15,6 +15,7 @@ body {
     background-color: var(--accent-color-three);
     background: var(--background-color-etc);
     text-decoration: none;
+
 }
 
 
@@ -22,6 +23,7 @@ body {
 a {
     text-decoration: none;
     color: var(--accent-text-color);
+    cursor: pointer;
 }
  
 
@@ -57,6 +59,10 @@ a {
     list-style: none;
 }
 
+.header-list:hover,
+.header-list:focus{
+    background-color: var(--color-of-button);
+}
 .stu {
     flex: none;
     order: 0;
@@ -80,12 +86,16 @@ a {
 .header-adress-c {
     margin-top: 24px;
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     list-style: none;
     letter-spacing: 0.02cm;
 
+}
+
+.header-adress-c:hover,
+.header-adress-c:focus{
+    background-color: var(--color-of-button);
 }
 
 .header-adress-mail {
@@ -102,7 +112,6 @@ a {
 }
 
 .hero-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -111,7 +120,6 @@ a {
 }
 
 .hero-button {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -137,7 +145,6 @@ a {
     font-size: 18px;
     text-decoration: none;
     color: var(--accent-text-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -148,7 +155,6 @@ a {
     list-style: none;
     text-decoration: none;
     color: var(--accent-text-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -160,7 +166,6 @@ a {
 }
 
 .section-p {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -175,7 +180,6 @@ a {
 /*Section 3*/
 
 .info-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -196,7 +200,6 @@ a {
 }
 
 .team-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -211,7 +214,6 @@ a {
 }
 
 .team-name {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -221,7 +223,6 @@ a {
 }
 
 .team-position {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -260,7 +261,6 @@ a {
 }
 
 .footer-desc {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -279,7 +279,6 @@ a {
 
 .buttons-listing {
     color: var(--accent-text-color-two);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -304,7 +303,6 @@ a {
 /* Portfolio Section 2*/
 
 .portfolio-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -319,7 +317,6 @@ a {
 }
 
 .portfolio-type {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -328,7 +325,6 @@ a {
 }
 
 .portfolio-subtitle {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
