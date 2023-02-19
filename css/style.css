@@ -244,6 +244,7 @@ a {
     color: var(--accent-text-color-two);
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0px;
 }
 
 .footer-studio {
@@ -281,9 +282,10 @@ a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 16px;
     transition-duration: 0.4s;
     background-color: var(--accent-color-three);
+    text-decoration: none;
 }
 
 .buttons-listing:hover,
