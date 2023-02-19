@@ -1,11 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F4F4FD;
-    background: #FFFFFF;
-    text-decoration: none;
-}
-
-
 /* Website colors */
 :root {
     --accent-text-color: #2e2f42;
@@ -14,6 +6,15 @@ body {
     --accent-color-three: #F4F4FD;
     --color-of-paragraphs-two: #E7E9FC;
 }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4FD;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
 
 /* Links */
 a {
@@ -120,8 +121,12 @@ a {
     transition-duration: 0.4s;
 }
 
-.hero-button:hover {
-    background-color: cornflowerblue;
+.hero-button:hover,
+.hero.button:focus {
+    background-color: var(--accent-text-color);
+}
+
+.hero-button.cursor{
     cursor: pointer;
 }
 
