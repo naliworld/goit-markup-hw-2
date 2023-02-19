@@ -286,7 +286,6 @@ a {
     font-weight: 500;
     font-size: 13px;
     transition-duration: 0.4s;
-    background-color: var(--accent-color-three);
 }
 
 .buttons-listing:hover,
