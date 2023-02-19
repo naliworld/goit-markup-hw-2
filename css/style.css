@@ -14,8 +14,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--accent-color-three);
     background: var(--background-color-etc);
-    text-decoration: none;
-
 }
 
 
@@ -50,7 +48,7 @@ a {
 /* Header List */
 
 .header-list {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -67,8 +65,7 @@ a {
 
 .header-lists:hover,
 .header-lists:focus {
-    color: var(--background-color-etc);
-    background-color: var(--color-of-button);
+    color: var(--color-of-button);
 }
 
 /* Header address */
@@ -77,6 +74,7 @@ a {
     margin-top: 24px;
     text-decoration: none;
     font-style: normal;
+    font-family: inherit;
     font-weight: 400;
     list-style: none;
     letter-spacing: 0.02cm;
@@ -89,8 +87,7 @@ a {
 
 .header-adress-name:hover,
 .header-adress-name:focus {
-    color: var(--background-color-etc);
-    background-color: var(--color-of-button);
+    color: var(--color-of-button);
 }
 
 /*Section 1*/
@@ -99,6 +96,7 @@ a {
 }
 
 .hero-title {
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -107,6 +105,7 @@ a {
 }
 
 .hero-button {
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -129,9 +128,10 @@ a {
 /* Section 2 */
 
 .section-title {
-    font-size: 18px;
+    font-size: 24px;
     text-decoration: none;
     color: var(--accent-text-color);
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -143,9 +143,10 @@ a {
     text-decoration: none;
     color: var(--accent-text-color);
     font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     line-height: 24px;
-    font-size: 15px;
+    font-size: 20px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -154,8 +155,9 @@ a {
 
 .section-p {
     font-style: normal;
+    font-family: inherit;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     color: var(--color-of-paragraphs);
     flex: none;
@@ -168,6 +170,7 @@ a {
 
 .info-title {
     font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -188,6 +191,7 @@ a {
 
 .team-title {
     font-style: normal;
+    font-family: inherit ;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -202,6 +206,7 @@ a {
 
 .team-name {
     font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
@@ -211,6 +216,7 @@ a {
 
 .team-position {
     font-style: normal;
+    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -249,6 +255,7 @@ a {
 
 .footer-desc {
     font-style: normal;
+    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -267,6 +274,7 @@ a {
 .buttons-listing {
     color: var(--accent-text-color-two);
     font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     transition-duration: 0.4s;
@@ -291,6 +299,7 @@ a {
 
 .portfolio-title {
     font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -305,6 +314,7 @@ a {
 
 .portfolio-type {
     font-style: normal;
+    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height: 15px;
@@ -313,6 +323,7 @@ a {
 
 .portfolio-subtitle {
     font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
