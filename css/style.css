@@ -67,6 +67,7 @@ a {
 
 .header-lists:hover,
 .header-lists:focus {
+    color: var(--background-color-etc);
     background-color: var(--color-of-button);
 }
 
@@ -83,11 +84,12 @@ a {
 
 
 .header-adress-name {
-    color: var(--color-of-paragraphs);
+   color: var(--color-of-paragraphs);
 }
 
 .header-adress-name:hover,
 .header-adress-name:focus {
+    color: var(--background-color-etc);
     background-color: var(--color-of-button);
 }
 
