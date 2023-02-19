@@ -19,8 +19,8 @@ body {
 /* Links */
 a {
     text-decoration: none;
-    cursor: pointer;
 }
+ 
 
 
 /* Header */
@@ -120,11 +120,16 @@ a {
     color: #FFFFFF;
     background-color: var(--accent-text-color-two);
     transition-duration: 0.4s;
+    list-style: none;
 }
 
 .hero-button:hover,
 .hero.button:focus {
-    color: var(--accent-text-color);
+    background-color: var(--accent-text-color);
+}
+
+.hero-button{
+    cursor: pointer;
 }
 
 
@@ -272,14 +277,18 @@ a {
 .buttons-list {
     color: var(--accent-color-three);
     transition-duration: 0.4s;
+    list-style: none;
 }
 
 
 .buttons-list.buttons-items:hover,
 .buttons-list.buttons-items:focus{
-    color: var(--color-of-paragraphs-two);
+    background-color: var(--color-of-paragraphs-two);
 }
 
+.buttons-list{
+    cursor: pointer;
+}
 
 
 .buttons-all {
