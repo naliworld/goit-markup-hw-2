@@ -39,14 +39,7 @@ a {
 }
 
 .header-studio {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
     color: var(--accent-text-color);
-    text-transform: uppercase;
-    letter-spacing: 0px;
 }
 
 /* Header List */
@@ -295,6 +288,7 @@ a {
 
 .buttons-listing:hover,
 .buttons-listing:focus {
+    color: #FFFFFF;
     background-color: var(--accent-text-color-two);
 }
 
